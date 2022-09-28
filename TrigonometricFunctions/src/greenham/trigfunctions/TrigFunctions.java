@@ -14,7 +14,7 @@ public class TrigFunctions {
 		return output;
 	}
 	
-	//Need a more efficient algorithm for finding factorial of x
+	//TODO: Need a more efficient algorithm for finding factorial of x
 	private int factorial(int x) {
 		int output = 1;
 		if (x == 0) {
