@@ -4,7 +4,7 @@ public class TrigFunctions {
 	public double sine(double angle) {
 		double output = 0.0;
 		int negation = 1;
-		for(int i = 1; i < 11; i+=2) {
+		for(int i = 1; i < 12; i+=2) {
 			output += ((Math.pow(angle,i))/(factorial(i))) * negation;
 			negation *= -1;
 		}
